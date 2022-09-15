@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<style>
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto", -apple-system, "San Francisco", "Segoe UI", "Helvetica Neue", sans-serif;
+        font-size: 12pt;
+        background-color: #eee;
+    }
+
+    * {
+
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+
+    .page {
+        background: #fff;
+        outline: 0;
+    }
+
+    div.page-break {
+        page-break-after: always;
+    }
+
+    @media screen {
+
+        div.page-break::before {
+            content: "";
+            display: block;
+            background-color: #fff;
+        }
+
+        div.page-break {
+            display: block;
+            background: #eee;
+        }
+    }
+
+    h1 {
+        page-break-before: always;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        page-break-after: avoid;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    p+p {
+        /* margin-top: 0.5cm; */
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    table {
+        page-break-inside: avoid;
+    }
+
+    @page {
+        orphans: 4;
+        widows: 2;
+    }
+
+    @media print {
+
+        html,
+        body {
+            background-color: #fff;
+        }
+
+        .page {
+
+            width: initial !important;
+            min-height: initial !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            border: initial !important;
+            border-radius: initial !important;
+            background: initial !important;
+            page-break-after: always;
+        }
+    }
+
+    .page {
+        min-height: 29.7cm;
+
+        padding-left: 1.5cm;
+        padding-top: 1.5cm;
+        padding-right: 1.5cm;
+        padding-bottom: 1.5cm;
+    }
+
+    @page {
+        size: A4 portrait;
+        margin-left: 1.5cm;
+        margin-top: 1.5cm;
+        margin-right: 1.5cm;
+        margin-bottom: 1.5cm;
+    }
+
+    .header{
+        max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+    }
+
+    .cells
+    {
+        text-align: center; 
+        border-bottom: black solid 1px;
+    }
+
+    .bank-cells
+    {
+        /* text-decoration: underline;  */
+        text-align: left; 
+        font-weight: bold;
+        border: black solid 0.5px;
+        padding: 4px;
+    }
+</style>
+
+<body class="document">
+    
+    <div class="page" contenteditable="false">
+                
+        <p>[Date]</p>
+        <p>Dear [Title] [Name] [Surname]</p>
+        <p>Contract Number: [ContractNo]</p>
+        <p>Plan: [Plan]</p>
+        <p>Congratulations and welcome to investing in your dreams. We at <strong>Random Investing</strong> are gratefull that you have chose us to make this dream into a reality.</p>
+    </br>
+        <p>Feel free to contact us on our email address : <strong>invest@dummygmail.com</strong></p>
+    </br>
+        <p>Our passion is to create wealth for our client's that would last a lifetime. The company, that makes money work for you.</p>
+    </br>
+        <p>Creating a family legacy is challenging so let the professionals assist you to accomplish your hearts desires.</p>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+
+        <!-- <p>_______________________________________________________</p> -->
+    </br>
+
+        <p>Kind Regards,</p>
+    </br>
+        <p>The CEO</p>
+    </br>
+        <p><strong>Chief Executive officer</strong></p>
+        <p style="font-style: italic;font-weight: bold; text-decoration: underline; font-size:68%;">Ephesians 3v20: God can do anything, you know—far more than you could ever imagine or guess or request in your wildest dreams!</p>
+    </br>
+    </br>
+        <footer style="line-height: 15px; font-size: 12px; text-align: center;">
+            <p>Random Investors</p>
+            <p>C: 012 345 6789    T: 012 345 6789</p>
+            <p>01 Random Street, Road, Place, Kwa-Zulu Natal</p>
+            <p>Director: The CEO</p>
+            
+    
+        </footer>
+    </div>
+
+    <div class="page" contenteditable="false">
+    </br>
+
+    </br>
+        <p >Contract Number: [ContractNo]</p>
+        <p >Plan: [Plan]</p>
+        <p >Client Name: [Title] [Name] [Surname]</p>
+        <p >Identity Number: [ID]</p>
+        <p >Start Date: [StartDate]</p>
+        <p >Term: [Term]</p>
+        <p >End Date: [EndDate]</p>
+        <p >Amount Invested: [Amount]</p>
+        <p >Guaranteed Amount Paid at end of Term: [PaidAmount] including Capital and interest</p>
+        <p >Kindly complete the Beneficiary details below and return to us via email: <span style="text-decoration: underline; font-style: italic;">invest@dummygmail.com</span> </p>
+    </br>
+        <table style="width: 100%;  border-spacing: 0 25px;"> 
+            <colgroup>
+                <col style="width:40%; float: left;">
+                <col style="width:30%">
+                <col style="width:30%">
+              </colgroup>  
+              <tbody>
+            <tr>
+                <th><strong style="text-decoration: underline;float: left;">Beneficiary Details:</strong></th>
+                <th>Current</th>
+                <th>Update</th>
+            </tr>
+
+            <tr>
+                <td>Name and Surname:</td>
+                <td class="cells">[Name] [Surname]</td>
+                <td class="cells">                               </td>
+            </tr>
+            <tr>
+                <td>Client Identity Number:</td>
+                <td class="cells">[ID]</td>
+                <td class="cells">                               </td>
+            </tr>
+            <tr>
+                <td>Contact Number (Cell):</td>
+                <td class="cells">[Cell]</td>
+                <td class="cells">                               </td>
+            </tr>
+            <tr>
+                <td>Whatsapp Number:</td>
+                <td class="cells">[Whatsapp]</td>
+                <td class="cells">                               </td>
+            </tr>
+            <tr>
+                <td>Email Address:</td>
+                <td class="cells">[CustEmail]</td>
+                <td class="cells">                               </td>
+            </tr>
+              </tbody>
+
+        </table>
+        <br>
+        <strong style="text-decoration: underline;"><p>Bank Details On Record</p></strong>
+        <table style="width: 100%;  border-spacing: 0 25px;"> 
+            <colgroup>
+                <col style="width:30%;">
+                <col style="width:70%;">
+              </colgroup>  
+              <tbody>
+            <tr>
+                <td>Name Of Bank:</td>
+                <td class="cells" style=" text-align: left;">[BankName]</td>
+            </tr>
+            <tr>
+                <td>Account Type:</td>
+                <td class="cells" style=" text-align: left;">[AccountType]</td>
+            </tr>
+            <tr>
+                <td>Account Number:</td>
+                <td class="cells" style=" text-align: left;">[AccNumber]</td>
+            </tr>
+            <tr>
+                <td>Branch Code:</td>
+                <td class="cells" style=" text-align: left;">[BranchCode]</td>
+            </tr>
+
+              </tbody>
+
+        </table>
+        <br>
+        <p>Signature of Client: ____________________________________&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Date: ______________________</p>
+        
+    </div>
+
+    <div class="page" contenteditable="false">
+        <br>
+        <br>
+        <br>
+        <strong > <p style="text-decoration: underline;text-align: center; font-size: 18px;"> Terms And Conditions</p></strong>
+        <br>
+        <p>1.  Early withdrawals and plan Cancellation will be charged an admin fee of R1000.</p>
+        <p>2.  Withdrawals and Access to funds is strictly for the duration of the term. Only, under certain conditions part/full  withdrawals would be allowed.</p>
+        <p>3.  Withdrawals will only be paid to the Investors bank account.  Payments to third party accounts must be done with a commissioner of oaths authorising such transactions.</p>
+        <p>4.  In the event of Death , Disability or Illness of the Policy Holder the following process must be followed :-  Death  - Beneficiary to complete the necessary forms ( Death Claim Forms) and attach certified ID copy, Bank statement not older than 3 months and Certified Death Certificate.</p>
+        <p>5.  Disability/Illness  – The Policy Holder needs to provide in writing what he or she wants do with the policy.</p>
+        <p>6.  Does he/she want to continue with the policy till end of term date and earn full interests.</p>
+        <p>7.  Cancel and Cash in the policy with pro rata interest if full term is not reached ( Certified ID , Bank Statement to be provided)</p>
+        <br>
+        <strong><p>Kindly ensure that your ID NUMBER is always used as the  reference on the proof of payment .</p>
+            <p>  Our Banking details are below.</p></strong>
+        <br>
+        <br>
+        <table style="width: 100%;  border-spacing: 0px 0px;"> 
+              <tbody>
+            <tr>
+                <td class="bank-cells">Name Of Bank:</td>
+                <td class="bank-cells" style=" text-align: left;">A Bank</td>
+            </tr>
+            <tr>
+                <td class="bank-cells">Account Type:</td>
+                <td class="bank-cells" style=" text-align: left;">BUSINESS ACCOUNT</td>
+            </tr>
+            <tr>
+                <td class="bank-cells">Account Number:</td>
+                <td class="bank-cells" style=" text-align: left;">123456789101112</td>
+            </tr>
+            <tr>
+                <td class="bank-cells">Branch Code:</td>
+                <td class="bank-cells" style=" text-align: left;">123456</td>
+            </tr>
+            <tr>
+                <td class="bank-cells">Swift Code:</td>
+                <td class="bank-cells" style=" text-align: left;">ABC123</td>
+            </tr>
+            <tr>
+                <td class="bank-cells">Reference Number:</td>
+                <td class="bank-cells" style=" text-align: left;">[ID]</td>
+            </tr>
+
+              </tbody>
+
+        </table>
+    </div>
+
+    
+    <script type="text/javascript">
+        // window.print();
+    </script>
+</body>
+
+</html>

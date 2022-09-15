@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Documents\\Visual Studio Projects\\PDF Generator - Copy (2)\\PDF Generator\\PDF Generator.csproj": {}
+  },
+  "projects": {
+    "F:\\Documents\\Visual Studio Projects\\PDF Generator - Copy (2)\\PDF Generator\\PDF Generator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Documents\\Visual Studio Projects\\PDF Generator - Copy (2)\\PDF Generator\\PDF Generator.csproj",
+        "projectName": "PDF Generator",
+        "projectPath": "F:\\Documents\\Visual Studio Projects\\PDF Generator - Copy (2)\\PDF Generator\\PDF Generator.csproj",
+        "packagesPath": "C:\\Users\\goven\\.nuget\\packages\\",
+        "outputPath": "F:\\Documents\\Visual Studio Projects\\PDF Generator - Copy (2)\\PDF Generator\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\goven\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Bunifu.UI.WinForms": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "NReco.PdfGenerator": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

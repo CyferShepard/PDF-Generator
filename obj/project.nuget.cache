@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7Eqw1SlDLpuvy2GcbxU2JbJKfL4+r3RfcRViPRN3zUr47+ydERZ3taAGzdjVbJntyQJF1Vs3gb/mm6xmIWQeOw==",
+  "success": true,
+  "projectFilePath": "F:\\Documents\\Visual Studio Projects\\PDF Generator - Copy (2)\\PDF Generator\\PDF Generator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\goven\\.nuget\\packages\\bunifu.ui.winforms\\5.3.0\\bunifu.ui.winforms.5.3.0.nupkg.sha512",
+    "C:\\Users\\goven\\.nuget\\packages\\nreco.pdfgenerator\\1.2.0\\nreco.pdfgenerator.1.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
